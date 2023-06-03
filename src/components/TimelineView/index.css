@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.MyJourney-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+.my-journey-of {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1;
+}
+.ccbp-description {
+  color: #171f46;
+  font-size: 30px;
+  font-family: 'Roboto';
+  line-height: 1;
+}
+.MyJourney {
+}
+
+.chrono-journey {
+  height: 500px;
+  width: 1000px;
+}

@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.Course-CardItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.card-titile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.duration-seciton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeLine-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.course-description {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+
+.courses-section {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 110%;
+  margin: 0px;
+}
+
+.course-item {
+  background-color: #bcb4b430;
+  border-radius: 5px;
+  margin: 6px;
+  color: #1e293b;
+  padding: 5px;
+}
